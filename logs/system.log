@@ -1,0 +1,17 @@
+2026-06-03 08:10:01 INFO System boot completed
+
+2026-06-03 08:17:33 WARN CPU usage above 90%
+
+2026-06-03 08:18:00 WARN Disk space below 10%
+
+2026-06-03 08:18:11 ERROR Network latency detected
+
+2026-06-03 08:21:22 INFO Scheduled backup started
+
+2026-06-03 08:22:45 WARN CPU usage above 95%
+
+2026-06-03 08:23:05 ERROR Backup process interrupted
+
+2026-06-03 08:24:55 INFO Network connection restored
+
+2026-06-03 08:26:31 WARN Disk space below 5%
