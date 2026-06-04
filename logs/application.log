@@ -1,0 +1,19 @@
+2026-06-03 08:15:21 INFO Application started
+
+2026-06-03 08:15:25 INFO Connected to database
+
+2026-06-03 08:18:12 WARN Database query exceeded threshold (2500ms)
+
+2026-06-03 08:18:15 ERROR Database connection timeout
+
+2026-06-03 08:18:17 ERROR Database connection timeout
+
+2026-06-03 08:20:03 INFO User login successful
+
+2026-06-03 08:22:41 WARN Memory usage above 80%
+
+2026-06-03 08:24:10 ERROR Failed to process customer request
+
+2026-06-03 08:25:45 WARN Memory usage above 85%
+
+2026-06-03 08:27:01 INFO Background job completed
