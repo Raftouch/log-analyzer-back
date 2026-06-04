@@ -13,8 +13,18 @@ const systemLogs = parseLogs("./logs/system.log");
 const analyzeLogs = require("./src/analyzer");
 const analyzedApplicationLogs = analyzeLogs(applicationLogs);
 const analyzedSystemLogs = analyzeLogs(systemLogs);
-console.log("Analyzed application logs : ", analyzedApplicationLogs);
-console.log("Analyzed system logs : ", analyzedSystemLogs);
+// console.log("Analyzed application logs : ", analyzedApplicationLogs);
+// console.log("Analyzed system logs : ", analyzedSystemLogs);
+
+const getSeverityLevel = require("./src/severity");
+console.log(
+  "Severity for application logs : ",
+  getSeverityLevel(analyzedApplicationLogs),
+);
+console.log(
+  "Severity for system logs : ",
+  getSeverityLevel(analyzedSystemLogs),
+);
 
 const start = () => {
   try {
